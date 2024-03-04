@@ -46,6 +46,9 @@
 		0D6DEAE42B96078E00EE196B = {
 			isa = PBXGroup;
 			children = (
+				0D6DEB072B96084C00EE196B /* view */,
+				0D6DEB062B96084400EE196B /* controller */,
+				0D6DEB052B96083E00EE196B /* model */,
 				0D6DEAEF2B96078E00EE196B /* fe_sagareal */,
 				0D6DEAEE2B96078E00EE196B /* Products */,
 			);
@@ -62,9 +65,6 @@
 		0D6DEAEF2B96078E00EE196B /* fe_sagareal */ = {
 			isa = PBXGroup;
 			children = (
-				0D6DEB072B96084C00EE196B /* view */,
-				0D6DEB062B96084400EE196B /* controller */,
-				0D6DEB052B96083E00EE196B /* model */,
 				0D6DEAF02B96078E00EE196B /* AppDelegate.swift */,
 				0D6DEAF22B96078E00EE196B /* SceneDelegate.swift */,
 				0D6DEAF42B96078E00EE196B /* ViewController.swift */,
