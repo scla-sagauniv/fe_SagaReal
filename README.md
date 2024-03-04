@@ -2,6 +2,10 @@
 ## 概要
 SAGARealフロントエンドSwiftアプリ
 
+## 言語
+- Swift
+- Ruby (firebaseなどのCocoaPodsによるインストールが必要なライブラリを使う際に環境が必要)
+
 ## アーキテクチャ
 ほぼMVC
 ### ディレクトリ詳細
@@ -13,3 +17,8 @@ SAGARealフロントエンドSwiftアプリ
 
 1. 適当なディレクトリに ```git clone git@github.com:scla-sagauniv/fe_sagareal.git```
 1. ディレクトリに移動 ```cd fe_sagareal```
+1. developブランチに移動 ```git checkout develop```
+1. プロジェクトを開く ```open fe_sagareal.xcodeproj```　もしくはxcodeからプロジェクトを開くかFinderからxcodeprojをダブルクリック
+
+## 実行
+- xcodeの矢印（デバッグボタン）でデバッグ
