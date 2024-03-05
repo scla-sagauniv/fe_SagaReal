@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>このアプリでは通知機能を使用します</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>このアプリでは現在地判定のために位置情報を使用します</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

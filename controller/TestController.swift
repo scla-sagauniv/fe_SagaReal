@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import CoreLocation
+import UserNotifications
 
 //CLLocationManagerDelegateを継承することでCoreLocationを使用できる
 class TestController:UIViewController,CLLocationManagerDelegate{
@@ -16,6 +17,8 @@ class TestController:UIViewController,CLLocationManagerDelegate{
     let locationManager = CLLocationManager()
     
     @IBOutlet weak var testButton: UIButton!
+    
+    @IBOutlet weak var testAlertBurron: UIButton!
     
     @IBOutlet weak var locationLabel: UILabel!
     override func viewDidLoad() {
@@ -49,6 +52,9 @@ class TestController:UIViewController,CLLocationManagerDelegate{
     //ボタンを押した時に位置情報を取得する
     @IBAction func testButtonTapped(_ sender: Any) {
         locationManager.requestLocation()
+    }
+    
+    @IBAction func testAlertButtonTapped(_ sender: Any) {
     }
     
     

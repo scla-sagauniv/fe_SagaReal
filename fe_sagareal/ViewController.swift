@@ -7,11 +7,14 @@
 
 import UIKit
 import CoreLocation
+import UserNotifications
 
 class ViewController: UIViewController ,CLLocationManagerDelegate{
     
     //CoreLocationManagerのインスタンス化
     let locationManager = CLLocationManager()
+    // 通知許可を求める
+    let notificationCenter = UNUserNotificationCenter.current()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +22,11 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
 //　　　　　navigationController?.navigationBar.isHidden = true
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
+        notificationCenter.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
+            if granted {
+                print("通知許可が得られました")
+            }
+        }
         locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
     }
     
