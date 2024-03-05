@@ -6,13 +6,20 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,CLLocationManagerDelegate{
+    
+    //CoreLocationManagerのインスタンス化
+    let locationManager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         //戻るボタンを非表示にする　デバッグ用に戻るボタンを残す
 //　　　　　navigationController?.navigationBar.isHidden = true
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
     }
     
     @IBAction func testMainButton(_ sender: Any) {
