@@ -23,4 +23,5 @@ class GalleryController:UIViewController{
         //navigationControllerクラスがない場合はメソッドそのものが呼び出されない
         self.navigationController?.pushViewController(postController, animated: true)
     }
+    
 }
