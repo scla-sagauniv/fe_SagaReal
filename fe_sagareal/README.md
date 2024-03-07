@@ -12,7 +12,6 @@ SAGARealフロントエンドSwiftアプリ
 - model：CRUDなどのデータベースや処理関連を担う関数のswiftファイルを配置する
 - view：画面を構成するstoryboardファイルを配置する
 - controller：画面遷移や画面操作などのviewにあるstoryboardの操作とmodelの実行を行う
-- playground：処理をテストするための.playgroundファイルを配置する。アプリケーションそのものには関係ない
 
 ## 環境構築
 
