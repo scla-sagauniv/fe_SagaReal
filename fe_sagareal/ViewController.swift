@@ -31,11 +31,11 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
     }
     
     @IBAction func testMainButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Test", bundle: nil)
-        let registerNewTeamController = storyboard.instantiateViewController(withIdentifier: "TestController")
+        let storyboard = UIStoryboard(name: "Gallery", bundle: nil)
+        let galleryController = storyboard.instantiateViewController(withIdentifier: "GalleryController")
         //navigationControllerクラスがない場合はメソッドそのものが呼び出されない
 
-        self.navigationController?.pushViewController(registerNewTeamController, animated: true)
+        self.navigationController?.pushViewController(galleryController, animated: true)
     }
     
 }

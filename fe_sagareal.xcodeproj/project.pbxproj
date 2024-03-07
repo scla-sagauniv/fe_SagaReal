@@ -16,6 +16,18 @@
 		0D6DEB092B960CE300EE196B /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB082B960CE300EE196B /* Test.storyboard */; };
 		0D6DEB0B2B960CFC00EE196B /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DEB0A2B960CFC00EE196B /* TestController.swift */; };
 		0D6DEB0D2B961AFA00EE196B /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DEB0C2B961AFA00EE196B /* TestModel.swift */; };
+		0D6DEB262B999B2900EE196B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB252B999B2900EE196B /* Login.storyboard */; };
+		0D6DEB282B999B7300EE196B /* Gallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB272B999B7300EE196B /* Gallery.storyboard */; };
+		0D6DEB2A2B999B9A00EE196B /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB292B999B9A00EE196B /* Post.storyboard */; };
+		0D6DEB2C2B999BAA00EE196B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DEB2B2B999BAA00EE196B /* LoginController.swift */; };
+		0D6DEB2E2B999BBE00EE196B /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DEB2D2B999BBE00EE196B /* GalleryController.swift */; };
+		0D6DEB302B999BCE00EE196B /* PostContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DEB2F2B999BCE00EE196B /* PostContoller.swift */; };
+		0D6DEB352B99A2D100EE196B /* siro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB322B99A2D100EE196B /* siro.jpeg */; };
+		0D6DEB362B99A2D100EE196B /* iseki.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB332B99A2D100EE196B /* iseki.jpeg */; };
+		0D6DEB372B99A2D100EE196B /* torii.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB342B99A2D100EE196B /* torii.jpeg */; };
+		0D6DEB3B2B99A67800EE196B /* sakura.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB382B99A67800EE196B /* sakura.jpeg */; };
+		0D6DEB3D2B99A67800EE196B /* mori.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB3A2B99A67800EE196B /* mori.jpeg */; };
+		0D6DEB3F2B99A68A00EE196B /* ika.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DEB3E2B99A68A00EE196B /* ika.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +43,18 @@
 		0D6DEB0A2B960CFC00EE196B /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		0D6DEB0C2B961AFA00EE196B /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		0D6DEB162B978D7400EE196B /* TestPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D6DEB252B999B2900EE196B /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0D6DEB272B999B7300EE196B /* Gallery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gallery.storyboard; sourceTree = "<group>"; };
+		0D6DEB292B999B9A00EE196B /* Post.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Post.storyboard; sourceTree = "<group>"; };
+		0D6DEB2B2B999BAA00EE196B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0D6DEB2D2B999BBE00EE196B /* GalleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryController.swift; sourceTree = "<group>"; };
+		0D6DEB2F2B999BCE00EE196B /* PostContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContoller.swift; sourceTree = "<group>"; };
+		0D6DEB322B99A2D100EE196B /* siro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siro.jpeg; sourceTree = "<group>"; };
+		0D6DEB332B99A2D100EE196B /* iseki.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iseki.jpeg; sourceTree = "<group>"; };
+		0D6DEB342B99A2D100EE196B /* torii.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torii.jpeg; sourceTree = "<group>"; };
+		0D6DEB382B99A67800EE196B /* sakura.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakura.jpeg; sourceTree = "<group>"; };
+		0D6DEB3A2B99A67800EE196B /* mori.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mori.jpeg; sourceTree = "<group>"; };
+		0D6DEB3E2B99A68A00EE196B /* ika.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ika.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 		0D6DEAE42B96078E00EE196B = {
 			isa = PBXGroup;
 			children = (
+				0D6DEB312B99A1EC00EE196B /* assets */,
 				0D6DEB152B978D2A00EE196B /* playground */,
 				0D6DEB072B96084C00EE196B /* view */,
 				0D6DEB062B96084400EE196B /* controller */,
@@ -90,6 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				0D6DEB0A2B960CFC00EE196B /* TestController.swift */,
+				0D6DEB2B2B999BAA00EE196B /* LoginController.swift */,
+				0D6DEB2D2B999BBE00EE196B /* GalleryController.swift */,
+				0D6DEB2F2B999BCE00EE196B /* PostContoller.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -98,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				0D6DEB082B960CE300EE196B /* Test.storyboard */,
+				0D6DEB252B999B2900EE196B /* Login.storyboard */,
+				0D6DEB272B999B7300EE196B /* Gallery.storyboard */,
+				0D6DEB292B999B9A00EE196B /* Post.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -108,6 +139,19 @@
 				0D6DEB162B978D7400EE196B /* TestPlayground.playground */,
 			);
 			path = playground;
+			sourceTree = "<group>";
+		};
+		0D6DEB312B99A1EC00EE196B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				0D6DEB3E2B99A68A00EE196B /* ika.jpeg */,
+				0D6DEB3A2B99A67800EE196B /* mori.jpeg */,
+				0D6DEB382B99A67800EE196B /* sakura.jpeg */,
+				0D6DEB332B99A2D100EE196B /* iseki.jpeg */,
+				0D6DEB322B99A2D100EE196B /* siro.jpeg */,
+				0D6DEB342B99A2D100EE196B /* torii.jpeg */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +214,16 @@
 			files = (
 				0D6DEAFD2B96079000EE196B /* LaunchScreen.storyboard in Resources */,
 				0D6DEAFA2B96079000EE196B /* Assets.xcassets in Resources */,
+				0D6DEB362B99A2D100EE196B /* iseki.jpeg in Resources */,
+				0D6DEB352B99A2D100EE196B /* siro.jpeg in Resources */,
 				0D6DEB092B960CE300EE196B /* Test.storyboard in Resources */,
+				0D6DEB372B99A2D100EE196B /* torii.jpeg in Resources */,
+				0D6DEB282B999B7300EE196B /* Gallery.storyboard in Resources */,
+				0D6DEB3D2B99A67800EE196B /* mori.jpeg in Resources */,
+				0D6DEB262B999B2900EE196B /* Login.storyboard in Resources */,
+				0D6DEB3B2B99A67800EE196B /* sakura.jpeg in Resources */,
+				0D6DEB2A2B999B9A00EE196B /* Post.storyboard in Resources */,
+				0D6DEB3F2B99A68A00EE196B /* ika.jpeg in Resources */,
 				0D6DEAF82B96078E00EE196B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,9 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6DEAF52B96078E00EE196B /* ViewController.swift in Sources */,
+				0D6DEB2C2B999BAA00EE196B /* LoginController.swift in Sources */,
+				0D6DEB2E2B999BBE00EE196B /* GalleryController.swift in Sources */,
 				0D6DEAF12B96078E00EE196B /* AppDelegate.swift in Sources */,
 				0D6DEB0D2B961AFA00EE196B /* TestModel.swift in Sources */,
 				0D6DEAF32B96078E00EE196B /* SceneDelegate.swift in Sources */,
+				0D6DEB302B999BCE00EE196B /* PostContoller.swift in Sources */,
 				0D6DEB0B2B960CFC00EE196B /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
